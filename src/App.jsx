@@ -1,18 +1,34 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import Header from "./Header.jsx"
 
-function Header() {
-  return <h1>Ash Ketchum</h1>
+function randomNumber(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min
 }
+
+
+
+function Fortune() {
+  let fortunes = ["Ship it.", "Read the error.", "Commit early."]
+  let index = randomNumber(0, fortunes.length - 1)
+  return <p>{fortunes[index]}</p>
+}
+
+function Footer() {
+  let year = new Date().getFullYear()
+  return <p>{year} Waltavian Kelley</p>
+}
+
+
+
+
 
 function App() {
   return (
     <div>
       <Header />
       <p>Pokémon trainer from Pallet Town.</p>
+      <Fortune />
+      <Footer />
+      
     </div>
   )
 }
