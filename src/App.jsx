@@ -1,23 +1,17 @@
 import Header from "./Header.jsx"
 import GitHubLink from "./GitHubLink.jsx"
 import Contact from "./Contact.jsx"
-
-function randomNumber(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min
-}
-
+import Footer from "./Footer.jsx"
+import Fortune from "./Fortune.jsx"
+import randomNumber from "./RandomNumber.jsx"
 
 
-function Fortune() {
-  let fortunes = ["Ship it.", "Read the error.", "Commit early."]
-  let index = randomNumber(0, fortunes.length - 1)
-  return <p>{fortunes[index]}</p>
-}
 
-function Footer() {
-  let year = new Date().getFullYear()
-  return <p>{year} Waltavian Kelley</p>
-}
+
+
+
+
+
 
 
 
