@@ -1,4 +1,6 @@
 import Header from "./Header.jsx"
+import GitHubLink from "./GitHubLink.jsx"
+import Contact from "./Contact.jsx"
 
 function randomNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min
@@ -26,7 +28,9 @@ function App() {
     <div>
       <Header />
       <p>Pokémon trainer from Pallet Town.</p>
+      <GitHubLink />
       <Fortune />
+      <Contact />
       <Footer />
       
     </div>
