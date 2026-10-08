@@ -5,6 +5,7 @@ import Footer from "./Footer.jsx"
 import Fortune from "./Fortune.jsx"
 import Partner from "./Partner.jsx"
 import '@picocss/pico/css/pico.min.css'
+import Week3level3ReactPortfolioCard from "./week3-level3-reactPortfolioCard.jsx"
 
 
 
@@ -21,6 +22,7 @@ function App() {
       <GitHubLink />
       <Partner />
       <Fortune randomNumber={randomNumber}/>
+      <Week3level3ReactPortfolioCard />
       <Contact />
       <Footer />
       
