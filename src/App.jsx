@@ -18,8 +18,8 @@ function App() {
   return (
     <div className="container">
       <Header />
-      <p className="note">Pokémon trainer from Pallet Town.</p>
-      <p className = "attack">It's super effective!</p>
+      <p>I have an 37 inch standing vertical and a 42 inch running vertical putting me in a less than 1% group of people</p>
+      
       <GitHubLink />
       <Partner />
       <Fortune randomNumber={randomNumber}/>
