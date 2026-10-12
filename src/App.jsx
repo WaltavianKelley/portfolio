@@ -29,7 +29,7 @@ console.log(randomNumber(1, 6))
 
   return (
     <div className="cont ainer">
-      <p> <Hero /> </p>
+      <Hero />
 
      
       <Header />
