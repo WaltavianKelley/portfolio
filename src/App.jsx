@@ -28,16 +28,17 @@ console.log(randomNumber(1, 6))
 
 
   return (
-    <div className="cont ainer">
+    <div className="container">
       <Hero />
 
      
       <Header />
       <p>I have an 37 inch standing vertical and a 42 inch running vertical putting me in a less than 1% group of people</p>
+
+      <Fortune />
       
       <GitHubLink />
       <Partner />
-      <Fortune />
       <Week3level3ReactPortfolioCard />
       <JoblistingswithfilteringPortfolioCard />
       <Contact />
