@@ -14,7 +14,10 @@ function Fortune() {
     <p>{fortunes[index]}</p>
     <button onClick={newFortune}> New Fortune </button>
   </div>
-  )
+  )  
 }
+
+
+  
 
 export default Fortune
