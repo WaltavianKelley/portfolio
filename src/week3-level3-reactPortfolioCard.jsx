@@ -5,10 +5,12 @@ function Week3level3ReactPortfolioCard() {
   let description = "A weather app that shows you weather by location using a search function."
   let liveUrl = "https://react-vite-week3.netlify.app/"
   let repoUrl = "https://github.com/WaltavianKelley/week3-level3-react"
-  const [likes, setLikes] = useState(0)
+  const [likes, setLikes] = useState(Number(localStorage.getItem("click-lab-likes")))
 
   const addLike = () => {
-    setLikes(likes + 1)
+    const next = likes + 1
+    setLikes(next)
+    localStorage.setItem("click-lab-likes", next)
   }
   return (
      <article>
